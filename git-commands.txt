@@ -1,0 +1,6 @@
+1. git init
+2. git add .
+3. git commit -m "YOUR MESSAGE"
+4. git remote add origin https://github.com/USER/REPO.git
+5. git remote set-url origin https://USER:TOKEN@github.com/USER/REPO.git
+6. git push --set-upstream origin master
