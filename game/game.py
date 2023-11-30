@@ -11,6 +11,7 @@ words = ['rock','paper','scissor']
 rand_word = random.choice(words)
 
 score = 0
+total_score = 0
 
 for i in range(1,4):
     guessed_word = input("Enter Your Choice: ").lower()
@@ -61,3 +62,4 @@ for i in range(1,4):
             print("Invalid input!")                           
     else:
         print("Invalid input!")
+
