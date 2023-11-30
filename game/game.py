@@ -18,45 +18,45 @@ for i in range(1,4):
         if rand_word == 'rock':
             score = score
             print("a tie")
-            print(score)
+            print(f"SCORE: {score}")
         elif rand_word == 'paper':
             score = score - 1
             print("Paper wraps rock, YOU LOST")
-            print(score)
+            print(f"SCORE: {score}")
         elif rand_word == 'scissor':
             score = score + 1
             print("Rock destroys scissor, YOU WON")
-            print(score)
+            print(f"SCORE: {score}")
         else:
             print("Invalid input!")
     elif guessed_word == 'paper':
         if rand_word == 'paper':
             score = score 
             print("a tie")
-            print(score)
+            print(f"SCORE: {score}")
         elif rand_word == 'rock':
             score = score + 1
             print("Paper wraps rock, YOU WON")
-            print(score)
+            print(f"SCORE: {score}")
         elif rand_word == 'scissor':
             score = score - 1
             print("Scissor cuts paper, YOU LOST")
-            print(score)
+            print(f"SCORE: {score}")
         else:
             print("Invalid input!") 
     elif guessed_word == 'scissor':
         if rand_word == 'scissor':
             score = score
             print("a tie")
-            print(score)
+            print(f"SCORE: {score}")
         elif rand_word == 'paper':
             score = score + 1
             print("Scissor cuts paper, YOU WON")
-            print(score)
+            print(f"SCORE: {score}")
         elif rand_word == 'rock':
             score = score - 1
             print("Rock destroys scissor, YOU LOST")
-            print(score)
+            print(f"SCORE: {score}")
         else:
             print("Invalid input!")                           
     else:
